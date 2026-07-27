@@ -48,15 +48,15 @@
 def get_grade(score):
   if score < 0 or score > 100:
       return None
-    elif score >= 80:
+  elif score >= 80:
       return "A"
-    elif score >= 70:
+  elif score >= 70:
       return "B"
-    elif score >= 60:
+  elif score >= 60:
       return "C"
-    elif score >=50:
+  elif score >=50:
       return "D"
-    else:
+  else:
       return "F"
 
 
